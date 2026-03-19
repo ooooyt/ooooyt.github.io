@@ -13,18 +13,18 @@ footer.footer-min {
 }
 
 /* Widen content on large screens only */
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .col-xl-8.offset-xl-2 {
-    max-width: 75%;
-    flex: 0 0 75%;
-    margin-left: 12.5%;
+    max-width: 65%;
+    flex: 0 0 65%;
+    margin-left: 17.5%;
   }
 }
 
-@media (min-width: 992px) {
-  .col-lg-10.offset-lg-1 {
-    max-width: 85%;
-    flex: 0 0 85%;
-    margin-left: 7.5%;
+@media (min-width: 2200px) {
+  .col-xl-8.offset-xl-2 {
+    max-width: 70%;
+    flex: 0 0 70%;
+    margin-left: 15%;
   }
 }
