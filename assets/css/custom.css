@@ -1,0 +1,11 @@
+@media (min-width: 1400px) {
+  .container, .container-md { max-width: 1200px; }
+}
+
+@media (min-width: 1920px) {
+  .container, .container-md { max-width: 1600px; }
+}
+
+@media (min-width: 2560px) {
+  .container, .container-md { max-width: 1920px; }
+}
