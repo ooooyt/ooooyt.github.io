@@ -11,3 +11,20 @@ footer.footer-min {
   border-top: 1px solid #eeeeee;
   text-align: center;
 }
+
+/* Widen content on large screens only */
+@media (min-width: 1200px) {
+  .col-xl-8.offset-xl-2 {
+    max-width: 75%;
+    flex: 0 0 75%;
+    margin-left: 12.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-10.offset-lg-1 {
+    max-width: 85%;
+    flex: 0 0 85%;
+    margin-left: 7.5%;
+  }
+}
