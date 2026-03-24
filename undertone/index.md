@@ -4,4 +4,4 @@ title: "Undertone"
 permalink: /undertone/
 ---
 
-{% for post in site.categories.cate %}
+{% for post in site.categories.undertone %}
