@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI"
+title: "Learn AI Here"
 permalink: /ai/
 ---
 
