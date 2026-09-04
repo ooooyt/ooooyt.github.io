@@ -4,6 +4,8 @@ title: "Undertone"
 permalink: /undertone/
 ---
 
+<h2 class="section-title"><span class="tag">Undertone</span> Longer musings</h2>
+
 {% for post in site.categories.undertone %}
   <div class="post-preview">
     <a href="{{ post.url }}">
@@ -16,8 +18,7 @@ permalink: /undertone/
       {{ post.date | date: "%B %d, %Y" }}
     </p>
     {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+      <div class="post-entry">{{ post.excerpt | strip_html | truncatewords: 50 }}</div>
     {% endif %}
-    <hr>
   </div>
 {% endfor %}

@@ -4,6 +4,8 @@ title: "Learn AI Here"
 permalink: /ai/
 ---
 
+<h2 class="section-title"><span class="tag">AI</span> Learn AI here</h2>
+
 {% for post in site.categories.ai %}
   <div class="post-preview">
     <a href="{{ post.url }}">
@@ -16,8 +18,7 @@ permalink: /ai/
       {{ post.date | date: "%B %d, %Y" }}
     </p>
     {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+      <div class="post-entry">{{ post.excerpt | strip_html | truncatewords: 50 }}</div>
     {% endif %}
-    <hr>
   </div>
 {% endfor %}
