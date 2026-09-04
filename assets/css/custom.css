@@ -219,22 +219,10 @@ blockquote {
   transform: translateY(-2px);
 }
 
-/* ---------- Hero: match the full-width look of the 404 page ---------- */
-/* The home/page layout wraps content in a col-xl-8 offset-xl-2 (or col-lg-10
-   offset-lg-1) column. Let the hero break out to the full container width,
-   just like on the 404 page (which uses the default layout). */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .col-lg-10.offset-lg-1 > .hero {
-    margin-left: -10%;
-    margin-right: -10%;
-  }
-}
-@media (min-width: 1200px) {
-  .col-xl-8.offset-xl-2 > .hero {
-    margin-left: -25%;
-    margin-right: -25%;
-  }
-}
+/* ---------- Full-width content ---------- */
+/* The header and main content now span the full container width on all pages
+   (layouts use a plain .col instead of col-xl-8/col-lg-10), so the hero and
+   post-preview items are as broad as the header without needing break-outs. */
 
 /* ---------- About page ---------- */
 .about-card {
